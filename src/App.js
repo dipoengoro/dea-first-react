@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState, useRef } from "react";
+import Testing from "./components/Testing";
+import MainLayouts from "./components/Layouts/main.layouts";
+import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
+import Navigation from "./components/Layouts/navigation.layouts";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MainLayouts>
+        <h1>HAHAHA</h1>
+      </MainLayouts>
+    </>
   );
-}
-
+};
 export default App;
