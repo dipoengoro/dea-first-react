@@ -1,16 +1,16 @@
-import React, { useEffect, useState, useRef } from "react";
-import Testing from "./components/Testing";
+import React from "react";
+import Images from "./components/images";
 import MainLayouts from "./components/Layouts/main.layouts";
-import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
-import Navigation from "./components/Layouts/navigation.layouts";
 
 const App = () => {
   return (
     <>
       <MainLayouts>
         <h1>HAHAHA</h1>
+        <p>Hallloo</p>
+        <Images title="Ini images" description="Images description"/>
       </MainLayouts>
     </>
   );
-};
+}
 export default App;
